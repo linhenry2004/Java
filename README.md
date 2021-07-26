@@ -1,2 +1,2 @@
 # Java
-This is a test
+These are my Java notes
