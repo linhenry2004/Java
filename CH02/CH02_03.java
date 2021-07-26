@@ -1,24 +1,11 @@
-package CH02;
-
 public class CH02_03 {
-	public static void main(String args[ ]) {
-		char ch1=73;
-		char ch2=65;
-		char ch3=77;
-		char ch4=72;
-		char ch5=69;
-		char ch6=78;
-		char ch7=82;
-		char ch8=89;
-		System.out.print(ch1);
-		System.out.print(" ");
-		System.out.print(ch2);
-		System.out.print(ch3);
-		System.out.print(" ");
-		System.out.print(ch4);
-		System.out.print(ch5);
-		System.out.print(ch6);
-		System.out.print(ch7);
-		System.out.print(ch8);
+	public static void main(String args[]) {
+		long no1 = 123456;
+		short no2 = 9876;
+		int no3 = 5678;
+
+		System.out.println("no1 = " + no1);
+		System.out.println("no2 = " + no2);
+		System.out.println("no3 = " + no3);
 	}
 }
