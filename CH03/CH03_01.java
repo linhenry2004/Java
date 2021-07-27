@@ -14,5 +14,6 @@ public class CH03_01 {
         System.out.println(hundred);
         System.out.println(ten);
         System.out.println(num % 10);
+        input_obj.close();
     }
 }

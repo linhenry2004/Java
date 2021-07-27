@@ -11,5 +11,6 @@ public class CH03_07 {
         System.out.printf("Math = %d, Science = %d\n", math, science);
         chr_pass = ((math >= 60) && (science >= 60)) ? 'Y' : 'N';
         System.out.printf("Pass? %c\n", chr_pass);
+        input_obj.close();
     }
 }

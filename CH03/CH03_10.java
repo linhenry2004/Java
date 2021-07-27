@@ -22,5 +22,6 @@ public class CH03_10 {
         System.out.println("Chinese \t Engish \t Math \t Total \t Average \t");
         System.out.printf("%d\t%d\t%d\t%.0f\t%.1f\t \n", Chi, Eng, Math, total, ave);
         System.out.println("**************************************");
+        input_obj.close();
     }
 }
